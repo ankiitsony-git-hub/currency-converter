@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #81c3ea;
+}
+
+.container {
+  background-color: #e9aaea;
+  padding: 5rem;
+  border-radius: 2rem;
+  width: 40%; 
+   
+}
+
+
+
+h2 {
+  font-size: 2.5rem; 
+  font-family: 'Arial Black', sans-serif; 
+  margin-bottom: 1rem; 
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+
+form select,button,input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.75rem;
+}
+.from {
+  font-size: 1rem;
+  font-family:'Arial Black', sans-serif; 
+}
+.to{
+  font-size: 1rem; 
+  font-family:'Arial Black', sans-serif; 
+}
+.amount {
+  margin-bottom: 1rem; 
+  font-size: 1rem; 
+  font-family: 'Arial Black', sans-serif; 
+}
+
+.amount label {
+  font-size: 1.25rem; 
+  font-weight: bold; 
+  margin-bottom: 0.5rem; 
+}
+
+.amount input {
+  width: 100%;
+  border-radius: 0.75rem; 
+  height: 3rem;
+  padding-left: 0.5rem;
+}
+
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #feece2;
+  width: 80%; 
+  border-radius: 1rem; 
+  padding: 0.5rem 1rem; 
+}
+
+.select-container:hover {
+  background-color: #f0f0f0; 
+}
+
+.select-container img {
+  max-width: 3rem; 
+}
+
+.msg {
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+  background: #fff;
+  border-radius: 2rem;
+  font-size: 1rem; 
+  font-family: 'Arial Black', sans-serif; 
+}
+
+i.fa-solid.fa-arrow-right-arrow-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  background-color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  border-radius:10px;
+  
+}
+
+
+
+
+form button {
+  height: 3rem;
+  background-color: #feece2;
+  color: black;
+  font-style: oblique;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  transform: scale(1.05) rotateY(10deg); 
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown i {
+  font-size: 1.5rem;
+  margin: 0 1rem; 
+}
+
+.dropdown .from,
+.dropdown .to {
+  flex: 1;
+  text-align: center;
+}
+
+.dropdown label {
+  font-size: 1.25rem; 
+  margin-bottom: 0.5rem; 
+}
